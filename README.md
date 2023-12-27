@@ -1,25 +1,26 @@
-# Iris Data Cleaning and Exploration
-This repository contains a Jupyter notebook (`iris_data_cleaning_and_exploration.ipynb`) that demonstrates data cleaning and exploration techniques using the Iris dataset. The Python libraries `pandas` and `seaborn` are utilized for these tasks.
-## Project Structure
-- `iris_data_cleaning_and_exploration.ipynb`: This Jupyter notebook contains the main code for this project. It includes the following sections:
-  1. Data loading
-  2. Data cleaning
-  3. Data exploration
-## Requirements
-To run the notebook, you will need the following Python libraries:
+# Titanic Dataset Exploration
+
+This repository contains a simplified script for exploring the Titanic dataset from the seaborn library. The dataset provides information about the passengers on the Titanic, including their survival status, class, age, sex, fare, and more.
+
+## Dependencies
+
+The following dependencies are required to run the script:
+
 - pandas
 - seaborn
 - matplotlib
-You can install these using pip:
 
+You can install the dependencies using pip:
 pip install pandas seaborn matplotlib
 
-## Usage
-To use this notebook, clone the repository and launch Jupyter notebook:
+## GitHub Repository
 
-git clone cd jupyter notebook
-Then, navigate to `iris_data_cleaning_and_exploration.ipynb` in the Jupyter notebook interface.
-## License
-This project is licensed under the terms of the MIT license.
+The code for this example can be found in the following GitHub repository: [Link to GitHub Repository](https://github.com/kamalakarpeta/data_cleaning_and_exploration)
 
-Remember to replace <repository-url> and <repository-directory> with your actual repository URL and directory name.
+## Conclusion
+
+This script demonstrates a basic example of data cleaning and exploration using the Titanic dataset. It loads the dataset, displays the first few rows and summary statistics, checks for missing values, handles missing data by filling in the median age and dropping the 'deck' column, and performs data visualization.
+
+Depending on the dataset and the specific task, you may need to perform more complex cleaning and exploration steps. Exploring data is an essential step in understanding the characteristics and patterns present in the dataset, which can guide further analysis and modeling.
+
+Feel free to explore the code in the provided GitHub repository and adapt it to your own projects. Further data cleaning, preprocessing, and visualization techniques can be applied to gain deeper insights and prepare the data for modeling. Additionally, you can explore other features of the seaborn library and customize the visualizations to suit your needs.
