@@ -1,26 +1,45 @@
-# Titanic Dataset Exploration
+# PySpark Customs Data Analysis on Databricks
 
-This repository contains a simplified script for exploring the Titanic dataset from the seaborn library. The dataset provides information about the passengers on the Titanic, including their survival status, class, age, sex, fare, and more.
+**Description:**
 
-## Dependencies
+Developed and implemented a scalable data processing and analysis pipeline using PySpark on Databricks to analyze large datasets from the Datamyne customs database. This project facilitated a deep understanding of international trade patterns, company-level import/export transactions, and commodity flows. The processed and analyzed data was then ingested into the Orbis database, enhancing its customs-related information for customers. This project optimized Databricks compute resources, workflows, and data lineage options to ensure efficient and reliable data processing.
 
-The following dependencies are required to run the script:
+**Key Technologies:**
 
-- pandas
-- seaborn
-- matplotlib
+* Databricks (Apache Spark, Delta Lake)
+* PySpark (Spark SQL, Spark DataFrames)
+* SQL (Databricks SQL, Orbis Database)
+* Datamyne Database
+* Databricks Workflows and Data Lineage
+* Cloud Storage: **AWS S3 or Azure Blob Storage**
+* Notebooks: **Jupyter/Databricks Notebooks**
+* Version Control: **Git**
 
-You can install the dependencies using pip:
-pip install pandas seaborn matplotlib
+**Project Overview:**
 
-## GitHub Repository
+* **Data Ingestion:** Extracted large datasets from the Datamyne database and ingested them into Databricks using efficient data connectors.
+* **Data Transformation:** Employed PySpark and Delta Lake to perform complex data transformations, aggregations, and cleaning operations, preparing the data for analysis.
+* **Data Analysis:** Utilized Spark SQL and Spark DataFrames to analyze trade flows between countries and companies, identify key imported/exported commodities, and derive meaningful insights from the customs data.
+* **Compute Resource Optimization:** Optimized Databricks compute resources by tuning Spark configurations, selecting appropriate cluster types, and implementing efficient data partitioning strategies.
+* **Workflow Orchestration:** Developed and implemented Databricks Workflows to automate the data processing pipeline, ensuring reliable and repeatable execution.
+* **Data Lineage Tracking:** Leveraged Databricks data lineage capabilities to track data transformations and dependencies, ensuring data integrity and traceability.
+* **Data Ingestion into Orbis:** Successfully ingested the processed and analyzed data into the Orbis database, enriching customer profiles with comprehensive customs information.
+* **Cloud Storage Integration:** Utilized cloud storage (AWS S3 or Azure Blob Storage) to store and manage large datasets, ensuring scalability and cost-effectiveness.
 
-The code for this example can be found in the following GitHub repository: [Link to GitHub Repository](https://github.com/kamalakarpeta/data_cleaning_and_exploration)
+**Key Achievements:**
 
-## Conclusion
+* **Scalable Data Processing:** Implemented a scalable data processing pipeline capable of handling large volumes of Datamyne customs data.
+* **Optimized Databricks Performance:** Optimized Databricks compute resources, resulting in significant improvements in data processing speed and efficiency.
+* **Enhanced Data Insights:** Provided valuable insights into international trade patterns and company-level transactions, enhancing the Orbis database with comprehensive customs information.
+* **Automated Data Pipeline:** Implemented Databricks Workflows to automate the data processing pipeline, ensuring reliable and repeatable execution.
+* **Improved Data Lineage:** Leveraged Databricks data lineage capabilities to ensure data integrity and traceability.
+* **Efficient Data Ingestion:** Successfully ingested the processed data into the Orbis database, enriching customer profiles with valuable customs information.
+* **Cost Optimization:** Effectively managed and optimized databricks compute resources to reduce costs.
 
-This script demonstrates a basic example of data cleaning and exploration using the Titanic dataset. It loads the dataset, displays the first few rows and summary statistics, checks for missing values, handles missing data by filling in the median age and dropping the 'deck' column, and performs data visualization.
+**Project Context:**
 
-Depending on the dataset and the specific task, you may need to perform more complex cleaning and exploration steps. Exploring data is an essential step in understanding the characteristics and patterns present in the dataset, which can guide further analysis and modeling.
+This project addressed the need for efficient and scalable analysis of large customs datasets to provide valuable insights into international trade patterns. By leveraging Databricks and PySpark, this project enabled the processing and analysis of complex data, enhancing the Orbis database with comprehensive customs information for its customers.
 
-Feel free to explore the code in the provided GitHub repository and adapt it to your own projects. Further data cleaning, preprocessing, and visualization techniques can be applied to gain deeper insights and prepare the data for modeling. Additionally, you can explore other features of the seaborn library and customize the visualizations to suit your needs.
+**Contact:**
+
+* LinkedIn: [My LinkedIn Profile URL](https://www.linkedin.com/in/kamalakarpeta/)
