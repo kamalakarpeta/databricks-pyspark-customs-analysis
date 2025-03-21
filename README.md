@@ -2,7 +2,7 @@
 
 **Description:**
 
-Developed and implemented a scalable data processing and analysis pipeline using PySpark on Databricks to analyze large datasets from the Datamyne customs database. This project facilitated a deep understanding of international trade patterns, company-level import/export transactions, and commodity flows. The processed and analyzed data was then ingested into the Orbis database, enhancing its customs-related information for customers. This project optimized Databricks compute resources, workflows, and data lineage options to ensure efficient and reliable data processing.
+Developed and implemented a scalable data processing and analysis pipeline using PySpark on Databricks to analyze large datasets from the customs database. This project facilitated a deep understanding of international trade patterns, company-level import/export transactions, and commodity flows. The processed and analyzed data was then ingested into the Orbis database, enhancing its customs-related information for customers. This project optimized Databricks compute resources, workflows, and data lineage options to ensure efficient and reliable data processing.
 
 **Key Technologies:**
 
@@ -17,7 +17,7 @@ Developed and implemented a scalable data processing and analysis pipeline using
 
 **Project Overview:**
 
-* **Data Ingestion:** Extracted large datasets from the Datamyne database and ingested them into Databricks using efficient data connectors.
+* **Data Ingestion:** Extracted large datasets from the customs database and ingested them into Databricks using efficient data connectors.
 * **Data Transformation:** Employed PySpark and Delta Lake to perform complex data transformations, aggregations, and cleaning operations, preparing the data for analysis.
 * **Data Analysis:** Utilized Spark SQL and Spark DataFrames to analyze trade flows between countries and companies, identify key imported/exported commodities, and derive meaningful insights from the customs data.
 * **Compute Resource Optimization:** Optimized Databricks compute resources by tuning Spark configurations, selecting appropriate cluster types, and implementing efficient data partitioning strategies.
